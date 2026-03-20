@@ -5,8 +5,8 @@ import { useRef, useState } from "react";
 const socials = [
   { label: "GitHub", handle: "@alexchen", icon: "GH" },
   { label: "LinkedIn", handle: "alex-chen-dev", icon: "LI" },
-  { label: "Twitter", handle: "@alexchendev", icon: "TW" },
-  { label: "Email", handle: "alex@domain.dev", icon: "@" },
+  { label: "Twitter", handle: "@jithinsdev", icon: "TW" },
+  { label: "Email", handle: "jithinjs3333@gmail.com", icon: "@" },
 ];
 
 export default function Contact() {
@@ -219,7 +219,7 @@ export default function Contact() {
       {/* Footer */}
       <div style={{ textAlign: "center", marginTop: 80, paddingTop: 36, borderTop: "1px solid rgba(0,255,65,0.07)" }}>
         <div className="mono" style={{ fontSize: "0.72rem", color: "#4a8a4a", letterSpacing: "0.1em" }}>
-          DESIGNED & BUILT BY <span style={{ color: "#00ff41", textShadow: "0 0 8px rgba(0,255,65,0.5)" }}>ALEX CHEN</span> · 2024
+          DESIGNED & BUILT BY <span style={{ color: "#00ff41", textShadow: "0 0 8px rgba(0,255,65,0.5)" }}>JITHIN S</span> · 2026
         </div>
         <div className="mono" style={{ fontSize: "0.68rem", color: "rgba(74,138,74,0.35)", marginTop: 8 }}>
           &lt; MADE WITH NEXT.JS & THREE.JS /&gt;

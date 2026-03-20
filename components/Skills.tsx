@@ -18,13 +18,13 @@ const skillCategories = [
   },
   {
     title: "Backend",
-    color: "#27F557",
+    color: "#FF9000",
     borderColor: "rgba(0,255,204,0.3)",
     skills: [
       { name: "Python / Django", level: 90 },
-      { name: "Flask / FastAPI", level: 85 },
+      { name: "JWT / FastAPI", level: 85 },
       { name: "PostgreSQL / MongoDB", level: 88 },
-      { name: "Redis", level: 80 },
+      { name: "OAUTH", level: 80 },
       { name: "RESTful APIs", level: 90 },
     ],
   },
@@ -33,16 +33,18 @@ const skillCategories = [
     color: "#27F557",
     borderColor: "rgba(57,255,20,0.3)",
     skills: [
-      { name: "AWS / GCP", level: 82 },
-      { name: "Docker / K8s", level: 85 },
+      { name: "AWS / CLOUDFLARE", level: 82 },
+      { name: "NGINX / GUNICORN", level: 85 },
       { name: "CI/CD Pipelines", level: 88 },
-      { name: "Terraform", level: 72 },
+      { name: "GITHUB / GIT", level: 72 },
       { name: "Monitoring", level: 78 },
     ],
   },
 ];
 
-const techs = ["React", "Next.js", "TypeScript", "Node.js", "Python", "PostgreSQL", "Redis", "Docker", "AWS", "GraphQL", "Three.js", "Git", "Linux", "Figma", "MongoDB", "Kubernetes"];
+const techs = ["Python","Django", "PostgreSQL","React", "Next.js","Redux", "TypeScript", "Node.js",  "Redis", "Docker", "AWS", "GraphQL", "Three.js", "Git", "Linux", "Figma", "MongoDB", "Kubernetes", "FastAPI", "NGINX", "GUNICORN", "CI/CD", "JWT", "OAUTH","Tailwind CSS", "Bootstrap","Vercel", "Cloudflare", "Adobe Photoshop", "Adobe Illustrator", "CorelDraw", "Postman", "Jira",
+  "Communication", "Problem Solving", "Teamwork", "Agile Methodologies", "Critical Thinking", "Time Management", "Adaptability", "Creativity", "Collaboration", "Leadership"  
+];
 
 function SkillBar({ name, level, color, delay }: { name: string; level: number; color: string; delay: number }) {
   const ref = useRef<HTMLDivElement>(null);

@@ -4,39 +4,47 @@ import { useRef } from "react";
 
 const experiences = [
   {
-    role: "Senior Software Engineer",
-    company: "TechNova Inc.",
-    period: "2022 — Present",
+    role: "Full-Stack Software Engineer",
+    company: "NexLoyd",
+    period: "2025 — Present",
     type: "Full-Time",
-    desc: "Lead architect for the core platform serving 2M+ users. Introduced micro-frontend architecture that reduced deployment time by 60%. Mentored a team of 8 engineers.",
-    highlights: ["Reduced load time by 70%", "Led team of 8 engineers", "Micro-frontend architecture"],
+    desc: "Currently working as a Full Stack Developer at Nextloyd, contributing to the development of Learning Management Systems (LMS) and AI-based web applications. Working with Django, Next.js, and microservices architecture to build scalable and modular systems. Involved in designing APIs, integrating frontend and backend services, and developing efficient, production-ready solutions.",
+    highlights: [
+      "Developing LMS platforms and AI-based applications",
+      "Working with Django (backend) and Next.js (frontend)",
+      "Implementing microservices architecture",
+      "Designing and integrating REST APIs",
+      "Building scalable and modular systems"
+    ],
     color: "#00ff41",
   },
   {
-    role: "Full-Stack Engineer",
-    company: "Datastream Labs",
-    period: "2020 — 2022",
-    type: "Full-Time",
-    desc: "Built real-time analytics pipelines processing 500M events/day. Developed custom WebGL visualizations for complex financial data.",
-    highlights: ["500M events/day pipeline", "Custom WebGL visualizations", "3 OSS contributions"],
-    color: "#00ffcc",
-  },
-  {
-    role: "Frontend Engineer",
-    company: "CreativeStack",
-    period: "2019 — 2020",
-    type: "Contract",
-    desc: "Delivered 15+ client projects. Established design system used across 30+ products. Reduced bundle sizes by 45% through code splitting.",
-    highlights: ["15+ client projects", "30+ product design system", "45% bundle reduction"],
+    role: "Python Django + React Developer",
+    company: "Brototype",
+    period: "2024 — 2025",
+    type: "Internship",
+    desc: "Completed a full stack development internship working with Python, Django, and React. Built and contributed to an e-commerce web application with features like user authentication, product management, and API integration. Also developed additional Python-based projects, gaining hands-on experience in backend logic, frontend integration, and full-stack workflows.",
+    highlights: [
+      "Developed a full-stack e-commerce web application",
+      "Worked with Django for backend and React for frontend",
+      "Implemented authentication and REST API integration",
+      "Built and deployed Python-based projects",
+      "Gained experience in full-stack development workflow"
+    ],
     color: "#39ff14",
   },
   {
-    role: "Software Engineer Intern",
-    company: "CodeCraft Studio",
-    period: "2018 — 2019",
+    role: "Frontend Developer Intern",
+    company: "Tecque Academy",
+    period: "2023 — 2024",
     type: "Internship",
-    desc: "Contributed to React Native app with 100K+ downloads. Implemented offline-first architecture and push notification system.",
-    highlights: ["100K+ downloads", "Offline-first architecture", "Push notifications"],
+    desc: "Completed a frontend internship where I learned and applied HTML, CSS, Bootstrap, and React fundamentals. Developed responsive user interfaces and built a frontend project focusing on component-based architecture and clean UI design.",
+    highlights: [
+      "Built responsive UI using HTML, CSS, and Bootstrap",
+      "Learned React fundamentals and component structure",
+      "Developed a frontend project from scratch",
+      "Improved understanding of modern web development practices"
+    ],
     color: "#00ff41",
   },
 ];
@@ -72,27 +80,49 @@ export default function Experience() {
             Work<br /><span className="neon-text">Experience</span>
           </h2>
           <p style={{ color: "#4a8a4a", lineHeight: 1.8, marginBottom: 32, fontSize: "0.9rem" }}>
-            5+ years building products at the intersection of engineering excellence and creative problem-solving.
+            2+ years building products at the intersection of engineering excellence and creative problem-solving.
           </p>
+          <div className="mono" style={{ fontSize: "0.80rem", color: "#4a8a4a", letterSpacing: "0.15em", marginBottom: 10 }}>
+              EDUCATION
+            </div>
+          <div style={{
+            marginBottom: 24,
+            padding: 24, borderRadius: 12,
+            border: "1px solid rgba(0,255,65,0.15)",
+            background: "rgba(7,20,7,0.6)",
+            animation: "glow-border 5s ease-in-out infinite",
+          }}>
+           
+            <div style={{
+              fontFamily: "'Orbitron', monospace", fontSize: "0.88rem",
+              fontWeight: 700, color: "#FFC300",
+              textShadow: "0 0 10px rgba(0,255,65,0.5)", marginBottom: 4,
+            }}>
+              Master of Computer Applications (MCA)
+            </div>
+            <div className="mono" style={{ fontSize: "0.78rem", color: "#FF9000" }}>
+              APJ Abdul Kalam Technological University (KTU), 2025 — present
+            </div>
+            
+          </div>
           <div style={{
             padding: 24, borderRadius: 12,
             border: "1px solid rgba(0,255,65,0.15)",
             background: "rgba(7,20,7,0.6)",
             animation: "glow-border 5s ease-in-out infinite",
           }}>
-            <div className="mono" style={{ fontSize: "0.68rem", color: "#4a8a4a", letterSpacing: "0.15em", marginBottom: 10 }}>
-              EDUCATION
-            </div>
+            
             <div style={{
               fontFamily: "'Orbitron', monospace", fontSize: "0.88rem",
-              fontWeight: 700, color: "#00ff41",
+              fontWeight: 700, color: "#FFC300",
               textShadow: "0 0 10px rgba(0,255,65,0.5)", marginBottom: 4,
             }}>
               B.Sc. Computer Science
             </div>
-            <div className="mono" style={{ fontSize: "0.78rem", color: "#4a8a4a" }}>
-              MIT · 2018 · GPA 3.9/4.0
+            <div className="mono" style={{ fontSize: "0.78rem", color: "#FF9000" }}>
+              University of Kerala, 2020 — 2023
             </div>
+            
           </div>
         </motion.div>
 

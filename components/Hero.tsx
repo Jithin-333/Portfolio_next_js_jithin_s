@@ -120,13 +120,13 @@ export default function Hero() {
           }}>
             <TypeAnimation
               sequence={[
-                "Full-Stack Engineer", 2000,
-                "3D Web Developer", 2000,
+                "Python Django Developer", 2000,
+                "Full-Stack Software Engineer", 2000,
                 "Open Source Contributor", 2000,
                 "System Architect", 2000,
               ]}
               repeat={Infinity}
-              style={{ color: "#00ffcc", textShadow: "0 0 12px rgba(0,255,204,0.6)" }}
+              style={{ color: "#FF9000", textShadow: "0 0 12px rgba(0,255,204,0.6)" }}
             />
           </motion.div>
 

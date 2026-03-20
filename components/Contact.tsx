@@ -222,10 +222,10 @@ export default function Contact() {
         <div className="mono" style={{ fontSize: "0.80rem", color: "#4a8a4a", letterSpacing: "0.1em" }}>
           DESIGNED & BUILT BY <span style={{ color: "#00ff41", textShadow: "0 0 8px rgba(0,255,65,0.5)" }}>JITHIN S</span> · 2026
         </div>
-        <div className="mono" style={{ fontSize: "0.80rem", color: "rgba(74,138,74,0.35)", marginTop: 8 }}>
+        <div className="mono" style={{ fontSize: "0.80rem", color: "rgba(0,255,217,0.35)", marginTop: 8 }}>
           Built with ❤️ using REACT, NEXT.JS & THREE.JS and deployed on vercel Cloud Infrastructure.
         </div>
-        <div className="mono" style={{ fontSize: "0.80rem", color: "rgba(74,138,74,0.35)", marginTop: 8 }}>
+        <div className="mono" style={{ fontSize: "0.80rem", color: "rgba(74,138,74,0.65)", marginTop: 8 }}>
           &lt; © 2026 Jithin S. All Rights Reserved./&gt;
         </div>
       </div>

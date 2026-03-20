@@ -1,12 +1,13 @@
 "use client";
 import { motion, useInView } from "framer-motion";
+import { link } from "fs";
 import { useRef, useState } from "react";
 
 const socials = [
-  { label: "GitHub", handle: "@alexchen", icon: "GH" },
-  { label: "LinkedIn", handle: "alex-chen-dev", icon: "LI" },
-  { label: "Twitter", handle: "@jithinsdev", icon: "TW" },
-  { label: "Email", handle: "jithinjs3333@gmail.com", icon: "@" },
+  { label: "GitHub", handle: "Jithin-333", icon: "GH", link: "https://github.com/Jithin-333" },
+  { label: "LinkedIn", handle: "jithin-s-tech", icon: "LI", link: "https://www.linkedin.com/in/jithin-s-tech/" },
+  { label: "Twitter", handle: "@notavailable right now", icon: "TW", link: "https://twitter.com/jithinsdev" },
+  { label: "Email", handle: "jithinjs3333@gmail.com", icon: "@", link: "mailto:jithinjs3333@gmail.com" },
 ];
 
 export default function Contact() {
@@ -116,7 +117,7 @@ export default function Contact() {
                   animate={inView ? { opacity: 1, x: 0 } : {}}
                   transition={{ delay: 0.3 + i * 0.1 }}
                   whileHover={{ x: 8, borderColor: "rgba(0,255,65,0.45)" }}
-                  href="#"
+                  href={s.link} target="_blank" rel="noopener noreferrer"
                   style={{
                     display: "flex", alignItems: "center", justifyContent: "space-between",
                     padding: "14px 18px", borderRadius: 10,
@@ -218,11 +219,14 @@ export default function Contact() {
 
       {/* Footer */}
       <div style={{ textAlign: "center", marginTop: 80, paddingTop: 36, borderTop: "1px solid rgba(0,255,65,0.07)" }}>
-        <div className="mono" style={{ fontSize: "0.72rem", color: "#4a8a4a", letterSpacing: "0.1em" }}>
+        <div className="mono" style={{ fontSize: "0.80rem", color: "#4a8a4a", letterSpacing: "0.1em" }}>
           DESIGNED & BUILT BY <span style={{ color: "#00ff41", textShadow: "0 0 8px rgba(0,255,65,0.5)" }}>JITHIN S</span> · 2026
         </div>
-        <div className="mono" style={{ fontSize: "0.68rem", color: "rgba(74,138,74,0.35)", marginTop: 8 }}>
-          &lt; MADE WITH NEXT.JS & THREE.JS /&gt;
+        <div className="mono" style={{ fontSize: "0.80rem", color: "rgba(74,138,74,0.35)", marginTop: 8 }}>
+          Built with ❤️ using REACT, NEXT.JS & THREE.JS and deployed on vercel Cloud Infrastructure.
+        </div>
+        <div className="mono" style={{ fontSize: "0.80rem", color: "rgba(74,138,74,0.35)", marginTop: 8 }}>
+          &lt; © 2026 Jithin S. All Rights Reserved./&gt;
         </div>
       </div>
     </section>
